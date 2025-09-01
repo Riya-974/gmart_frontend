@@ -4,10 +4,10 @@ import { NavLink, useNavigate } from 'react-router-dom'
 const Nav = () => {
     const navigate=useNavigate()
   return (
-    <div className='w-[100vw] p-[30px] shadow-xl flex items-center justify-between '>
-      <div className='flex items-center' onClick={()=>navigate("/")}>
-        <img src={"/gmart.jpg"} className='w-[50px] h-[50px]'/>
-        <h1 className='text-red-700 font-bold text-3xl cursor-pointer'>GraphicsMart</h1>
+    <div className='w-[100vw] p-[30px] shadow-xl flex items-center justify-between'>
+      <div className='flex items-center gap-2' onClick={()=>navigate("/")}>
+        <img src={"/gmart.jpg"} className='w-[50px] h-[50px]'/> 
+        <h3 className='text-red-700 font-bold text-xl cursor-pointer'>Graphics Mart</h3>
       </div>
 
       <div className='m-[10px] w-[20%] hidden md:flex justify-between font-bold'>

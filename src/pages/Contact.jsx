@@ -98,7 +98,7 @@ const Contact = () => {
                   {items.name}
                 </option>
               ))}
-              <option value="Other">Other</option>
+             
             </select>
           </div>
 
